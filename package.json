@@ -1,0 +1,46 @@
+{
+    "name"           : "devaloka-translation",
+    "version"        : "0.1.0",
+    "description"    : "Provides an implementation of Symfony TranslationInterface for WordPress",
+    "keywords"       : [
+        "wordpress",
+        "plugin",
+        "translation",
+        "internationalization",
+        "localization",
+        "i18n",
+        "l10n"
+    ],
+    "homepage"       : "https://github.com/devaloka/devaloka-translation",
+    "bugs"           : {
+        "url": "https://github.com/devaloka/devaloka-translation/isssues"
+    },
+    "license"        : "(MIT OR GPL-2.0 OR GPL-3.0)",
+    "author"         : {
+        "name" : "Whizark",
+        "email": "devaloka@whizark.com",
+        "url"  : "http://whizark.com"
+    },
+    "files"          : [
+        "./MIT-LICENSE.txt",
+        "./GPL-LICENSE.txt",
+        "./devaloka-translation.php",
+        "./loader/*",
+        "./src/*"
+    ],
+    "main"           : "./devaloka-translation.php",
+    "repository"     : {
+        "type": "git",
+        "url" : "https://github.com/devaloka/devaloka-translation.git"
+    },
+    "scripts"        : {
+        "lint": "mdast -u mdast-lint README.md"
+    },
+    "dependencies"   : {
+        "devaloka": "*"
+    },
+    "devDependencies": {
+        "mdast"     : "~2.3.0",
+        "mdast-lint": "~1.1.1"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "name"             : "devaloka/devaloka-translation",
+    "description"      : "Provides an implementation of Symfony TranslationInterface for WordPress",
+    "version"          : "0.1.0",
+    "type"             : "wordpress-muplugin",
+    "keywords"         : [
+        "wordpress",
+        "plugin",
+        "translation",
+        "internationalization",
+        "localization",
+        "i18n",
+        "l10n"
+    ],
+    "homepage"         : "https://github.com/devaloka/devaloka-translation",
+    "license"          : [
+        "MIT",
+        "GPL-2.0",
+        "GPL-3.0"
+    ],
+    "minimum-stability": "stable",
+    "authors"          : [
+        {
+            "name"    : "Whizark",
+            "email"   : "devaloka@whizark.com",
+            "homepage": "http://whizark.com",
+            "role"    : "Developer"
+        }
+    ],
+    "support"          : {
+        "email" : "devaloka@whizark.com",
+        "issues": "https://github.com/devaloka/devaloka-translation/isssues",
+        "wiki"  : "https://github.com/devaloka/devaloka-translation/wiki",
+        "source": "https://github.com/devaloka/devaloka-translation"
+    },
+    "require"          : {
+        "php"                : ">=5.4.0",
+        "composer/installers": "~1.0",
+        "devaloka/devaloka"  : "~0.5.0",
+        "symfony/translation": "~3.0"
+    },
+    "archive"          : {
+        "exclude": [
+            ".gitignore",
+            ".gitattributes",
+            ".mailmap",
+            ".editorconfig",
+            "npm-shrinkwrap.json",
+            ".mdastrc"
+        ]
+    }
+}
