@@ -20,7 +20,7 @@ TranslationInterface for WordPress.
 1.  Install via Composer.
 
     ```sh
-    composer require devaloka/devaloka-translation dev-master
+    composer require devaloka/devaloka-translation
     ```
 
 2.  Move `loader/10-devaloka-translation-loader.php` into
