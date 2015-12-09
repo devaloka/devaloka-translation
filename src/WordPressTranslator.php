@@ -21,7 +21,7 @@ use Symfony\Component\Translation\TranslatorInterface;
  */
 class WordPressTranslator implements TranslatorInterface
 {
-    private $locale;
+    protected $locale;
 
     public function __construct()
     {
