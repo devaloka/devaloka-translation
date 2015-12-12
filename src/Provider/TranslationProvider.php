@@ -28,7 +28,7 @@ class TranslationProvider implements ServiceProviderInterface
         $container->add(
             'translator',
             function (Container $container) {
-                return new $container['translator.class'];
+                return new $container['translator.class']();
             }
         );
     }
