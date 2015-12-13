@@ -21,6 +21,69 @@ trait TranslatableTrait
 {
     use TranslatorAwareTrait;
 
+    /**
+     * @since 0.2.0 Introduced.
+     */
+    protected $textDomain;
+
+    /**
+     * @since 0.2.0 Introduced.
+     */
+    protected $domainPath;
+
+    /**
+     * @since 0.2.0 Introduced.
+     */
+    protected $locale;
+
+    /**
+     * @since 0.2.0 Introduced.
+     */
+    public function getLocale()
+    {
+        return $this->locale;
+    }
+
+    /**
+     * @since 0.2.0 Introduced.
+     */
+    public function setLocale($locale)
+    {
+        $this->locale = $locale;
+    }
+
+    /**
+     * @since 0.2.0 Introduced.
+     */
+    public function getTextDomain()
+    {
+        return $this->textDomain;
+    }
+
+    /**
+     * @since 0.2.0 Introduced.
+     */
+    public function setTextDomain($domain)
+    {
+        $this->textDomain = $domain;
+    }
+
+    /**
+     * @since 0.2.0 Introduced.
+     */
+    public function getDomainPath()
+    {
+        return $this->domainPath;
+    }
+
+    /**
+     * @since 0.2.0 Introduced.
+     */
+    public function setDomainPath($path)
+    {
+        $this->domainPath = $path;
+    }
+
     public function trans($text, $context = null, $domain = null)
     {
         $domain     = ($domain !== null) ? $domain : $this->getTextDomain();

@@ -21,7 +21,27 @@ interface TranslatableInterface extends TranslatorAwareInterface
 {
     public function getLocale();
 
+    /**
+     * @since 0.2.0 Introduced.
+     */
+    public function setLocale($locale);
+
     public function getTextDomain();
+
+    /**
+     * @since 0.2.0 Introduced.
+     */
+    public function setTextDomain($domain);
+
+    /**
+     * @since 0.2.0 Introduced.
+     */
+    public function getDomainPath();
+
+    /**
+     * @since 0.2.0 Introduced.
+     */
+    public function setDomainPath($path);
 
     public function loadTextDomain($domain = null, $path = null);
 
