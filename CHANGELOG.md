@@ -1,3 +1,13 @@
+<a name="0.2.1"></a>
+## [0.2.1](https://github.com/devaloka/devaloka-translation/compare/v0.2.0...v0.2.1) (2015-12-19)
+
+
+### Features
+
+* introduce Devaloka MU Plugin Installer ([266c71a](https://github.com/devaloka/devaloka-translation/commit/266c71a))
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/devaloka/devaloka-translation/compare/v0.1.0...v0.2.0) (2015-12-13)
 
