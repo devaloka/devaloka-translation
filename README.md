@@ -22,6 +22,3 @@ TranslationInterface for WordPress.
     ```sh
     composer require devaloka/devaloka-translation
     ```
-
-2.  Move `loader/10-devaloka-translation-loader.php` into
-    `<ABSPATH>wp-content/mu-plugins/`.
