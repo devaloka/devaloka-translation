@@ -1,6 +1,6 @@
 {
     "name"           : "devaloka-translation",
-    "version"        : "0.2.1",
+    "version"        : "0.2.2",
     "description"    : "Provides an implementation of Symfony TranslationInterface for WordPress",
     "keywords"       : [
         "wordpress",
