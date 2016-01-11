@@ -1,4 +1,4 @@
-# Devaloka Translation [![Build Status](https://travis-ci.org/devaloka/devaloka-translation.svg?branch=master)](https://travis-ci.org/devaloka/devaloka-translation) [![Packagist](https://img.shields.io/packagist/v/devaloka/devaloka-translation.svg)](https://packagist.org/packages/devaloka/devaloka-translation)
+# Devaloka Translation [![Build Status][travis-image]][travis-url] [![Packagist][packagist-image]][packagist-url]
 
 A WordPress plugin that provides an implementation of Symfony
 TranslationInterface for WordPress.
@@ -22,3 +22,9 @@ TranslationInterface for WordPress.
     ```sh
     composer require devaloka/devaloka-translation
     ```
+
+[travis-image]: https://travis-ci.org/devaloka/devaloka-translation.svg?branch=master
+[travis-url]: https://travis-ci.org/devaloka/devaloka-translation
+
+[packagist-image]: https://img.shields.io/packagist/v/devaloka/devaloka-translation.svg
+[packagist-url]: https://packagist.org/packages/devaloka/devaloka-translation
