@@ -12,13 +12,13 @@ namespace Devaloka\Translation\Provider;
 
 use Pimple\Container;
 use Devaloka\Devaloka;
-use Devaloka\DependencyInjection\ContainerInterface;
+use Devaloka\Component\DependencyInjection\ContainerInterface;
 use Devaloka\Provider\ServiceProviderInterface;
 
 /**
  * Class TranslationProvider
  *
- * @package Devaloka\EventDispatcher\Provider
+ * @package Devaloka\Component\EventDispatcher\Provider
  */
 class TranslationProvider implements ServiceProviderInterface
 {
